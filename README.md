@@ -4,5 +4,5 @@ The personalization is a combination of HRTF selection (from a database, in this
 Procedure:
 1)	Download CIPIC database: https://www.ece.ucdavis.edu/cipic/spatial-sound/hrtf-data/.
 2)	Select HRTF dataset with https://github.com/msmhrtf/sel.
-3)	Run transformToTextWithDelaunay.m after entering HRTF dataset ID (CIPIC ID) and anthopometric dimensions (Head width X1 and Head depth X3)
-4)	Output: personalised dataset in SOFA format and txt format. The txt file is formatted to be used in https://github.com/msmhrtf/binsdn.
+3)	Run transformToTextWithDelaunay.m after entering HRTF dataset ID (CIPIC ID) and anthopometric dimensions (Head width X1 and Head depth X3). Need to change some directory paths.
+4)	Output: personalised dataset in SOFA format and txt format. The txt files are formatted to be used in https://github.com/msmhrtf/binsdn.
