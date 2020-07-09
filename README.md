@@ -6,3 +6,7 @@ Procedure:
 2)	Select HRTF dataset with https://github.com/msmhrtf/sel.
 3)	Run transformToTextWithDelaunay.m after entering HRTF dataset ID (CIPIC ID) and anthopometric dimensions (Head width X1 and Head depth X3). Need to change some directory paths.
 4)	Output: personalised dataset in SOFA format and txt format. The txt files are formatted to be used in https://github.com/msmhrtf/binsdn.
+
+
+If you use our personalization procedure in your project do not forget to cite this article: 
+* M. Geronazzo, J. Y. Tissieres, and S. Serafin, “A Minimal Personalization of Dynamic Binaural Synthesis with Mixed Structural Modeling and Scattering Delay Networks,” in Proc. IEEE Int. Conf. on Acoust. Speech Signal Process. (ICASSP 2020), Barcelona, Spain, May 2020, pp. 411–415, doi: ICASSP40776.2020.9053873.
